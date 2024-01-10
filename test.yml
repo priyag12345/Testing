@@ -2,5 +2,5 @@
 - hosts: localhost
   tasks: 
     - name: ping
-      shell: hostname
+      shell: pwd
       register: out
