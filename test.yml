@@ -4,3 +4,6 @@
     - name: ping
       shell: pwd
       register: out
+
+    - debug:
+        msg: "{{ out }}"
