@@ -5,5 +5,4 @@
       shell: pwd
       register: out
 
-    - debug:
-        msg: "{{ out }}"
+
